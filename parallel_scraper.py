@@ -1,5 +1,5 @@
 # parallel_scraper.py - 专注于src属性的版本
-
+# 123123213
 import time
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
