@@ -1,0 +1,304 @@
+{
+  "analysis_info": {
+    "timestamp": "2025-11-17T00:36:31.870531",
+    "data_source": "Spark_HDFS_Real_Data",
+    "hdfs_path": "/user/hadoop/image_analysis/extracted_features_final",
+    "core_configs": [
+      1,
+      2,
+      4,
+      6
+    ]
+  },
+  "data_info": {
+    "samples": 8,
+    "features": 24,
+    "class_distribution": {
+      "0": 4,
+      "1": 4
+    },
+    "feature_range": [
+      0.0,
+      3972.8427089504494
+    ],
+    "feature_mean": 187.7922644231833,
+    "data_source": "Spark_HDFS_Real_Data",
+    "load_time": "2025-11-17T00:36:25.653088"
+  },
+  "parallel_results": {
+    "1_cores": {
+      "results": [
+        {
+          "model_name": "Random Forest",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.1142122745513916,
+          "success": true
+        },
+        {
+          "model_name": "Logistic Regression",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.004487276077270508,
+          "success": true
+        },
+        {
+          "model_name": "Decision Tree",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.0009474754333496094,
+          "success": true
+        },
+        {
+          "model_name": "SVM",
+          "accuracy": 1.0,
+          "f1_score": 1.0,
+          "training_time": 0.0019903182983398438,
+          "success": true
+        },
+        {
+          "model_name": "Naive Bayes",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.000904083251953125,
+          "success": true
+        },
+        {
+          "model_name": "K-Neighbors",
+          "accuracy": 0.3333333333333333,
+          "f1_score": 0.16666666666666666,
+          "training_time": 0.07612371444702148,
+          "success": true
+        },
+        {
+          "model_name": "Neural Network",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.0651390552520752,
+          "success": true
+        },
+        {
+          "model_name": "XGBoost",
+          "accuracy": 0.3333333333333333,
+          "f1_score": 0.16666666666666666,
+          "training_time": 0.35186338424682617,
+          "success": true
+        }
+      ],
+      "total_time": 0.6351699829101562,
+      "cores": 1,
+      "method": "sequential"
+    },
+    "2_cores": {
+      "results": [
+        {
+          "model_name": "Random Forest",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.11614608764648438,
+          "success": true
+        },
+        {
+          "model_name": "Logistic Regression",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.003975868225097656,
+          "success": true
+        },
+        {
+          "model_name": "Decision Tree",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.0012242794036865234,
+          "success": true
+        },
+        {
+          "model_name": "SVM",
+          "accuracy": 1.0,
+          "f1_score": 1.0,
+          "training_time": 0.0019304752349853516,
+          "success": true
+        },
+        {
+          "model_name": "Naive Bayes",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.0011394023895263672,
+          "success": true
+        },
+        {
+          "model_name": "K-Neighbors",
+          "accuracy": 0.3333333333333333,
+          "f1_score": 0.16666666666666666,
+          "training_time": 0.019500017166137695,
+          "success": true
+        },
+        {
+          "model_name": "Neural Network",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.06207466125488281,
+          "success": true
+        },
+        {
+          "model_name": "XGBoost",
+          "accuracy": 0.3333333333333333,
+          "f1_score": 0.16666666666666666,
+          "training_time": 0.011940479278564453,
+          "success": true
+        }
+      ],
+      "total_time": 1.901186466217041,
+      "cores": 2,
+      "method": "parallel_2cores"
+    },
+    "4_cores": {
+      "results": [
+        {
+          "model_name": "Random Forest",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.12706851959228516,
+          "success": true
+        },
+        {
+          "model_name": "Logistic Regression",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.004269599914550781,
+          "success": true
+        },
+        {
+          "model_name": "Decision Tree",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.0015721321105957031,
+          "success": true
+        },
+        {
+          "model_name": "SVM",
+          "accuracy": 1.0,
+          "f1_score": 1.0,
+          "training_time": 0.003087759017944336,
+          "success": true
+        },
+        {
+          "model_name": "Naive Bayes",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.0010762214660644531,
+          "success": true
+        },
+        {
+          "model_name": "K-Neighbors",
+          "accuracy": 0.3333333333333333,
+          "f1_score": 0.16666666666666666,
+          "training_time": 0.022411823272705078,
+          "success": true
+        },
+        {
+          "model_name": "Neural Network",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.07023096084594727,
+          "success": true
+        },
+        {
+          "model_name": "XGBoost",
+          "accuracy": 0.3333333333333333,
+          "f1_score": 0.16666666666666666,
+          "training_time": 0.012747526168823242,
+          "success": true
+        }
+      ],
+      "total_time": 2.1695525646209717,
+      "cores": 4,
+      "method": "parallel_4cores"
+    },
+    "6_cores": {
+      "results": [
+        {
+          "model_name": "Random Forest",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.12782931327819824,
+          "success": true
+        },
+        {
+          "model_name": "Logistic Regression",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.0037615299224853516,
+          "success": true
+        },
+        {
+          "model_name": "Decision Tree",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.0013539791107177734,
+          "success": true
+        },
+        {
+          "model_name": "SVM",
+          "accuracy": 1.0,
+          "f1_score": 1.0,
+          "training_time": 0.0028815269470214844,
+          "success": true
+        },
+        {
+          "model_name": "Naive Bayes",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.0013017654418945312,
+          "success": true
+        },
+        {
+          "model_name": "K-Neighbors",
+          "accuracy": 0.3333333333333333,
+          "f1_score": 0.16666666666666666,
+          "training_time": 0.020631790161132812,
+          "success": true
+        },
+        {
+          "model_name": "Neural Network",
+          "accuracy": 0.6666666666666666,
+          "f1_score": 0.5333333333333333,
+          "training_time": 0.062398433685302734,
+          "success": true
+        },
+        {
+          "model_name": "XGBoost",
+          "accuracy": 0.3333333333333333,
+          "f1_score": 0.16666666666666666,
+          "training_time": 0.011922359466552734,
+          "success": true
+        }
+      ],
+      "total_time": 0.2518303394317627,
+      "cores": 6,
+      "method": "parallel_6cores"
+    }
+  },
+  "performance_metrics": {
+    "1_cores": {
+      "speedup": 1.0,
+      "efficiency": 1.0,
+      "total_time": 0.6351699829101562
+    },
+    "2_cores": {
+      "speedup": 0.33409136567966957,
+      "efficiency": 0.16704568283983479,
+      "total_time": 1.901186466217041
+    },
+    "4_cores": {
+      "speedup": 0.29276542696771335,
+      "efficiency": 0.07319135674192834,
+      "total_time": 2.1695525646209717
+    },
+    "6_cores": {
+      "speedup": 2.522213901404304,
+      "efficiency": 0.420368983567384,
+      "total_time": 0.2518303394317627
+    }
+  }
+}
