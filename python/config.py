@@ -14,7 +14,7 @@ SEARCH_KEYWORDS = ['cat', 'dog']
 
 # 图像处理配置
 IMAGE_SIZE = (64, 64)
-MAX_IMAGES_PER_KEYWORD = 4
+MAX_IMAGES_PER_KEYWORD = 20
 
 # 特征提取配置
 FEATURE_CONFIG = {
