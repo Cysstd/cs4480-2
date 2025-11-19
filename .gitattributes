@@ -1,0 +1,2 @@
+Scrap/image_metadata.json filter=lfs diff=lfs merge=lfs -text
+image_metadata.json filter=lfs diff=lfs merge=lfs -text
