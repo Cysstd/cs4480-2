@@ -3988,3 +3988,16 @@ INFO: Unsupported notification method: $/setTrace
 2025.11.19 22:07:43 INFO  shutting down Metals
 2025.11.19 22:07:44 INFO  Shut down connection with build server.
 2025.11.19 22:07:43 INFO  Exiting server
+2025.11.19 22:08:28 INFO  Started: Metals version 1.6.3 in folders '/home/apyton/Documents/CityU_Study/CS4480/Project/cs4480-2' for client Visual Studio Code 1.105.1.
+2025.11.19 22:08:29 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.11.19 22:08:30 INFO  Attempting to connect to the build server...
+2025.11.19 22:08:30 INFO  Running BSP server List(/home/apyton/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/apyton/Documents/CityU_Study/CS4480/Project/cs4480-2/.scala-build/ide-options-v2.json, --json-launcher-options, /home/apyton/Documents/CityU_Study/CS4480/Project/cs4480-2/.scala-build/ide-launcher-options.json, --envs-file, /home/apyton/Documents/CityU_Study/CS4480/Project/cs4480-2/.scala-build/ide-envs.json, /home/apyton/Documents/CityU_Study/CS4480/Project/cs4480-2)
+2025.11.19 22:08:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/apyton/Documents/CityU_Study/CS4480/Project/cs4480-2/.metals/bsp.trace.json or /home/apyton/.cache/metals/bsp.trace.json
+2025.11.19 22:08:30 INFO  time: Connected to build server in 0.82s
+2025.11.19 22:08:30 INFO  Connected to Build server: scala-cli v1.10.1
+2025.11.19 22:08:31 INFO  compiling cs4480-2_14c68a3194 (2 scala sources)
+2025.11.19 22:08:34 INFO  time: compiled cs4480-2_14c68a3194 in 3.36s
+2025.11.19 22:08:34 INFO  compiling cs4480-2_14c68a3194 (2 scala sources)
+2025.11.19 22:08:35 INFO  time: compiled cs4480-2_14c68a3194 in 1.21s
+2025.11.19 22:08:37 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.11.19 22:08:38 INFO  time: indexed workspace in 7.75s
