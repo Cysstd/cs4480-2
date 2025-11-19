@@ -1,0 +1,10 @@
+phase,method,time_seconds,dataset_size
+Scraping,Sequential,120.5,200
+Scraping,Multicore,60.2,200
+Scraping,Cluster,45.1,200
+OpenCV Processing,Sequential,80.3,200
+OpenCV Processing,Multicore,40.1,200
+OpenCV Processing,Cluster,30.0,200
+Training,Sequential,150.4,200
+Training,Multicore,75.2,200
+Training,Cluster,50.3,200
